@@ -9,5 +9,6 @@ mkShell {
 
     # Tools
     pkgs.ruby-lsp
+    pkgs.libyaml
   ];
 }
