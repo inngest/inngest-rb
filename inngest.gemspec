@@ -5,19 +5,19 @@ require_relative "lib/inngest/version"
 Gem::Specification.new do |spec|
   spec.name = "inngest"
   spec.version = Inngest::VERSION
-  spec.authors = ["Darwin D Wu"]
-  spec.email = ["darwin67@users.noreply.github.com"]
+  spec.authors = ["Inngest Developers <eng@inngest.com>"]
+  spec.email = ["eng@inngest.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "Inngest Ruby SDK"
+  spec.description = "A durable event-driven workflow engine SDK for Ruby"
+  spec.homepage = "https://www.inngest.com/"
   spec.required_ruby_version = ">= 2.6.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/inngest/inngest-rb"
+  spec.metadata["changelog_uri"] = "https://github.com/inngest/inngest-rb/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
