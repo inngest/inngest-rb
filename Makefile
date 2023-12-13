@@ -1,6 +1,6 @@
 .PHONY: dev
 dev:
-	ruby dev/app.rb
+	ruby dev/sinatra/app.rb
 
 .PHONY: test
 test:

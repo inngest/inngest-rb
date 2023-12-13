@@ -1,5 +1,5 @@
 PATH
-  remote: ..
+  remote: ../..
   specs:
     inngest (0.0.1)
 
