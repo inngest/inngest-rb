@@ -34,8 +34,12 @@ dummy = {
   ]
 }
 
+before do
+  content_type 'application/json'
+end
+
 get "/hello" do
-  "HELLO WORLD!!!"
+  {message: "HELLO WORLD!!!"}.to_json
 end
 
 put "/api/inngest" do
