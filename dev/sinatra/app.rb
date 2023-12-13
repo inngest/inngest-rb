@@ -35,7 +35,7 @@ dummy = {
 }
 
 before do
-  content_type 'application/json'
+  content_type "application/json"
 end
 
 get "/hello" do
