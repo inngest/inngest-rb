@@ -3,7 +3,6 @@
 require_relative "inngest/client"
 require_relative "inngest/version"
 
-class Inngest
+module Inngest
   class Error < StandardError; end
-  # Your code goes here...
 end
