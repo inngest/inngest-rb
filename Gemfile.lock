@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    inngest (0.1.0)
+    inngest (0.0.1)
 
 GEM
   remote: https://rubygems.org/
